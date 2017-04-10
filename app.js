@@ -41,7 +41,7 @@ app.use(function (err, req, res, next) {
   res.render('error');
 });
 
-var port = process.env.PORT || 9090;
+var port = process.env.PORT || 8080;
 
 app.listen(port, () => {
   console.log("Access application on port", port);
