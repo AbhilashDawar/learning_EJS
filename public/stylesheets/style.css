@@ -1,8 +1,22 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: darkslategray;
 }
 
-a {
+.background{
+  background-image: url('/images/home.jpg');
+  background-size: 100%;
+}
+
+.tagLine{
   color: #00B7FF;
+  font-family: 'Berlin Sans FB';
+  font-size: 24px;
+  text-align: center;
+}
+
+.thumbnail{
+  border: 2px solid black;
+  border-radius: 10px;
 }
